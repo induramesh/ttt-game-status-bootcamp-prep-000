@@ -44,8 +44,9 @@ def draw? (board)
 end 
 
 def over? (board)
-  if draw? (boa)
-  else #not full
+  if draw? (board) || won? (board) != false
+    true 
+  else #not full 
     false
   end
 end 

@@ -25,7 +25,7 @@ def won? (board)
 end 
 
 
-def full?
+def full? (board)
   if board.include?(" ")
     false
   else

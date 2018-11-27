@@ -54,11 +54,11 @@ def over? (board)
 end 
 
 def winner (board)
-  if won?(board).include?("X")
+  if won?(board) == false
+    nil
+  elsif board.count("X") > board.count("O")
     "X"
-  elsif won?(board).include?("O")
+  else
     "O"
-  else 
-    nil 
   end 
 end 

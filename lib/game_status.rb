@@ -16,7 +16,7 @@ def won? (board)
       false
     end 
    end 
-    if result.all?(false)
+    if result.all?{false}
       false
     else
       result.delete(false)

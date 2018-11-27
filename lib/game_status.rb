@@ -44,10 +44,13 @@ def draw? (board)
 end 
 
 def over? (board)
-  if draw? (board)
-    true 
+  if won?(board) != false
+    true
+  elsif draw?(board)
+    true
   else
-  end
+    false
+  end 
 end 
 
 def winner

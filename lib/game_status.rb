@@ -34,9 +34,9 @@ def full? (board)
 end
 
 def draw? (board)
-  if won? (board) != false
+  if won?(board) != false
     false
-  elsif full? (board)
+  elsif full?(board)
     true 
   else
     false
@@ -46,10 +46,7 @@ end
 def over? (board)
   if draw? (board)
     true 
-  elsif won? (board) != false
-    true
-  else #not full 
-    false
+  else
   end
 end 
 

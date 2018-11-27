@@ -34,6 +34,10 @@ def full? (board)
 end
 
 def draw?
+  if won?(board) != false
+    false
+  else
+    true 
 end 
 
 def over?

@@ -1,4 +1,4 @@
-# Helper Method
+# Helper Method I didn't use this at all oops 
 def position_taken?(board, index)
   !(board[index].nil? || board[index] == " ")
 end

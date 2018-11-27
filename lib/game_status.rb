@@ -60,4 +60,5 @@ def winner
     "O"
   else 
     nil 
+  end 
 end 
